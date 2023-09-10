@@ -1,0 +1,153 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+.container{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 100px;
+}
+.navbar{
+    display: flex;
+}
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.right-links{
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+}
+
+.right-links a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.header-info{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header-info h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.header-info p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882F6;
+    color: #fff;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#girl-image{
+    width: 350px;
+    height:400px;
+}
+
+.flower{
+    width: 200px;
+    height:150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 5px 20px 0px 20px;
+}
+
+h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.information{
+    max-width: 200px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+.quote p{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.quote b{
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.sign-text{
+    text-align: left;
+}
+
+h3{
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.sign-text p{
+    padding: 0;
+    margin: 5px 30px 30px 50px;
+}
+
+.signUp{
+    border: 2px solid #fff;
+    border-radius: 5px;;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+.sign-item{
+    flex: 1;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #fff;
+    padding: 8px ;
+}
